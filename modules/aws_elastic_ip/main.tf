@@ -1,5 +1,5 @@
 resource "aws_eip" "this" {
-  vpc                    = var.aws_eip_vpc
+  domain                 = var.aws_eip_domain
   network_border_group   = var.aws_eip_network_border_group
   public_ipv4_pool       = var.aws_eip_public_ipv4_pool
 
