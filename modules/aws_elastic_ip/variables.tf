@@ -1,7 +1,7 @@
-variable "aws_eip_vpc" {
+variable "aws_eip_domain" {
   description = "Whether to allocate the address for use with instances in a VPC"
-  type        = bool
-  default     = true
+  type        = string
+  default     = "vpc"
 }
 
 variable "aws_eip_name" {
