@@ -1,7 +1,3 @@
-variable "aws_s3_bucket" {
-  type        = string  
-}
-
 variable "aws_s3_apab_block_public_acls" {
   type        = bool
   description = "Whether to block public ACLs"
